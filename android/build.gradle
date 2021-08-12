@@ -22,5 +22,6 @@ android {
 
 dependencies {
     implementation 'com.facebook.react:react-native:+'
-    implementation 'com.google.android.gms:play-services-ads:+'
+    implementation ('com.google.android.gms:play-services-ads:16.+') { force = true; }
+
 }
